@@ -12,7 +12,6 @@ const initialState = {
 
 
 function reducer(state=initialState,action : any){
-    console.log(state)
     
     switch(action.type){
         case ADDWL:

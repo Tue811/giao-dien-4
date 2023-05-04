@@ -48,10 +48,8 @@ const ProductPage = () => {
 
   const {id} = useParams()
 
-  console.log(id)
-
   const product = dataProduct.find((item : any) => item.id == id)
-  console.log(product)
+
   const darta = [
     {
       min: 1,
@@ -93,22 +91,22 @@ const ProductPage = () => {
       <ProductDetail>
         <Row>
           <Col lg={12} md={12} sm={24}>
-            <h2>{product.name}</h2>
+            <h2>Duvet Cover Set Be Brave</h2>
             <Detail>
               <p>
-                {product.des}
+                Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a non felis eleifend justo vel bibendum sapien.
               </p>
               <ul>
                 <li>
-                  {product.comment[0]}
+                  Maecenas malesuada 5 elit lectus felis, malesuada ultricies.
                 </li>
                 <li>
-                {product.comment[1]}
+               Curabitur et ligula. Ut molestie a, ultricies porta urna.
                 </li>
                 <li>
-                {product.comment[2]}
+                Vestibulum commodo volutpat a, convallis ac, laoreet enim.
                 </li>
-                <li> {product.comment[3]}</li>
+                <li>Phasellus fermentum in, dolor. Pellentesque facilisis.</li>
               </ul>
               <p
                 style={{

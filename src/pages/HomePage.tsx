@@ -87,7 +87,6 @@ const HomePage = () => {
     // setLike(false)
    }
 
-  //  console.log(product)
    const handleProduct=(item)=>{
      setOpenProductModal(true);
      setImgProduct(item.imageMain);
@@ -98,7 +97,6 @@ const HomePage = () => {
 
    const handleDetailProduct=(item: any)=>{
         dispatch(getProduct(item))
-        console.log(item)
    }
 
   return (
